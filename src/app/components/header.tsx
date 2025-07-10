@@ -39,14 +39,25 @@ const HeaderComponent = () => {
               />
               <img src="/Images/kinhlup.png" alt="icon search" className="w-5 h-5 ml-2" />
             </div>
-            <div className="flex gap-4 mt-1 text-xs text-gray-400 pt-2">
-              <span>nồi cơm điện</span>
-              <span>ấm siêu tốc</span>
-              <span>bếp ga/ bếp từ</span>
-              <span>bếp ga/ bếp từ</span>
-              <span>nồi chảo chống dính</span>
-              <span>máy lọc nước</span>
-            </div>
+
+              {/* Click vào Danh mục phiaduoi Tìm Kiếm và chuyển page */}
+      <div className="flex gap-3 mt-2 flex-wrap">
+        <Link href="/san-pham/noi-com-dien">
+          <span className="px-3 py-1 bg-[#f5f6fa] border border-[#e0e0e0] rounded-lg text-xs text-[#222] font-medium cursor-pointer hover:bg-[#e7f6ee] transition">nồi cơm điện</span>
+        </Link>
+        <Link href="/san-pham/am-sieu-toc">
+          <span className="px-3 py-1 bg-[#f5f6fa] border border-[#e0e0e0] rounded-lg text-xs text-[#222] font-medium cursor-pointer hover:bg-[#e7f6ee] transition">ấm siêu tốc</span>
+        </Link>
+        <Link href="/san-pham/bep">
+          <span className="px-3 py-1 bg-[#f5f6fa] border border-[#e0e0e0] rounded-lg text-xs text-[#222] font-medium cursor-pointer hover:bg-[#e7f6ee] transition">bếp ga/ bếp từ</span>
+        </Link>
+        <Link href="/san-pham/noi-chao-chong-dinh">
+          <span className="px-3 py-1 bg-[#f5f6fa] border border-[#e0e0e0] rounded-lg text-xs text-[#222] font-medium cursor-pointer hover:bg-[#e7f6ee] transition">nồi chảo chống dính</span>
+        </Link>
+        <Link href="/san-pham/may-loc-nuoc">
+          <span className="px-3 py-1 bg-[#f5f6fa] border border-[#e0e0e0] rounded-lg text-xs text-[#222] font-medium cursor-pointer hover:bg-[#e7f6ee] transition">máy lọc nước</span>
+        </Link>
+      </div>
           </div>
 
           {/* Icon & user */}

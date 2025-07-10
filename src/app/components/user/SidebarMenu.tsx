@@ -14,7 +14,7 @@ import {
 const menuList = [
   { label: "Thông tin tài khoản", icon: FiUser, path: "/page/Info" },
   { label: "Thông báo của tôi", icon: FiBell, path: "/page/MyAddress" },
-  { label: "Quản lý đơn hàng", icon: FiShoppingBag, path: "/account/orders" },
+  { label: "Quản lý đơn hàng", icon: FiShoppingBag, path: "/page/OrderManagement" },
   { label: "Quản lý đổi trả", icon: FiRefreshCw, path: "/account/returns" },
   { label: "Sản phẩm yêu thích", icon: FiHeart, path: "/account/favorites" },
   { label: "Địa chỉ của tôi", icon: FiMapPin, path: "/account/address" },

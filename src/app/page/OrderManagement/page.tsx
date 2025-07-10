@@ -2,11 +2,9 @@
 import Header2Component from "@/app/components/header2";
 import OrderManagementPage from "@/app/components/user/OrderManagement";
 import SidebarMenu from "@/app/components/user/SidebarMenu";
-import SocialLinks from "@/app/components/user/SocialLinks";
-import UserProfileForm from "@/app/components/user/UserProfileForm";
 import React from "react";
 
-export default function InfoPage() {
+export default function OderManagement() {
   return (
     <div className="bg-[#f6f7fa] min-h-screen">
       <Header2Component />
@@ -22,8 +20,7 @@ export default function InfoPage() {
           <SidebarMenu />
           <div className="flex-1">
             <div className="bg-white rounded-xl shadow px-8 py-7 flex flex-row min-w-[700px]">
-              <UserProfileForm />
-              <SocialLinks />
+              <OrderManagementPage />
               
             </div>
           </div>
