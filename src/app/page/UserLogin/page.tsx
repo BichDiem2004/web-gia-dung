@@ -1,16 +1,17 @@
-import HeaderComponent from "./components/header";
-import BannerSection from "./components/user/BannerSection";
-import CategoryMenu from "./components/user/CategoryMenu";
-import FeaturedCollections from "./components/user/FeaturedCollections";
-import FlashSaleSection from "./components/user/FlashSaleSection";
-import Footer from "./components/user/Footer";
-import PastelOffers from "./components/user/PastelOffers";
-import PromotionIcons from "./components/user/PromotionIcons";
+import Header2Component from '@/app/components/header2'
+import BannerSection from '@/app/components/user/BannerSection'
+import CategoryMenu from '@/app/components/user/CategoryMenu'
+import FeaturedCollections from '@/app/components/user/FeaturedCollections'
+import FlashSaleSection from '@/app/components/user/FlashSaleSection'
+import Footer from '@/app/components/user/Footer'
+import PastelOffers from '@/app/components/user/PastelOffers'
+import PromotionIcons from '@/app/components/user/PromotionIcons'
+import React from 'react'
 
-export default function HomePage() {
+const page = () => {
   return (
     <div className="bg-gray-100 min-h-screen font-sans text-black ">
-      <HeaderComponent />
+      <Header2Component />
       <div className="flex container m-auto">
 <div className=""><CategoryMenu /></div>
        <div>
@@ -35,5 +36,7 @@ export default function HomePage() {
 
     
     </div>
-  );
+  )
 }
+
+export default page
